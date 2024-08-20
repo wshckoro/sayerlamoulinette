@@ -6,7 +6,7 @@
 /*   By: fmartore <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/20 15:48:39 by fmartore          #+#    #+#             */
-/*   Updated: 2024/08/20 15:50:30 by fmartore         ###   ########.fr       */
+/*   Updated: 2024/08/20 17:47:36 by fmartore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ int	main(void)
 	{
 		rand_string(str, random_number(1, 100));
 		strcpy(str2, str);
-		if (i % 3 == 0)
+		if (i % 2 == 0)
 			rand_string(str2, random_number(1, 100));
 		n = random_number(1, 100);
 		fprintf(machine, "%d\n", strncmp(str, str2, n));
