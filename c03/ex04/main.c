@@ -6,7 +6,7 @@
 /*   By: fmartore <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/20 15:10:29 by fmartore          #+#    #+#             */
-/*   Updated: 2024/08/20 16:57:40 by fmartore         ###   ########.fr       */
+/*   Updated: 2024/08/20 17:49:37 by fmartore         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,6 +67,10 @@ int	main(void)
 	str2 = malloc(101 * sizeof(char));
 	dest = malloc(202 * sizeof(char));
 	dest2 = malloc(202 * sizeof(char));
+	fprintf(machine, "%s\n", strstr("", ""));
+	fprintf(user, "%s\n", ft_strstr("", ""));
+	fprintf(machine, "%s\n", strstr("hellololeooh4224", "loo"));
+	fprintf(user, "%s\n", ft_strstr("hellololeooh4224", "loo"));
 	while (i < 200)
 	{
 		rand_string(str, random_number(1, 100));
